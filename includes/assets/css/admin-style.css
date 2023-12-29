@@ -1,0 +1,108 @@
+
+@media only screen and (min-width: 320px){
+    body{
+          overflow: scroll;
+         min-width: 600px;
+    }
+}
+
+.lsbodyWrap{
+    background: #FFF;
+    padding: 20px 20px 45px 20px;
+    border-radius: 25px;
+    margin: 20px 10%;
+    box-shadow: 2px 2px 8px #d7d7d7;
+    -moz-box-shadow: 2px 2px 8px #d7d7d7;
+    -webkit-box-shadow: 2px 2px 8px #d7d7d7;
+    -ms-box-shadow: 2px 2px 8px #d7d7d7;
+    width: 75%;
+    box-sizing: border-box;
+   
+}
+@media only screen and (min-width: 320px){
+    /* .lsbodyWrap{
+          overflow: scroll;
+         min-width: 600px;
+    } */
+}
+@media only screen and (min-width: 767px){
+    .lsbodyWrap{
+       margin-right: 5px;
+    }
+}
+.lsBrand{ text-align: center;     padding: 5px 0;
+  
+
+}
+@media only screen and (min-width: 320px) {
+    .lsBrand img{ max-width: 50%; }
+
+   }
+
+.lsBrand h2{
+    font-size: 25px;
+    color: #031442;
+}
+
+
+.lsdbRow input[type="submit"]{
+    background-color: #FFFFFF;
+    border: 0;
+    border-top: 1px solid #CCCCCC;
+    outline: none;
+    cursor: pointer;
+    padding: 9px 32px;
+    transition: 0.3s;
+    font-size: 16px;
+    color: #ffffff;
+    position: relative;
+    text-align: left;
+    background: #3254b1;
+    margin: 20px 0 0 0;
+    line-height: normal;
+    border: 1px solid #3254b1;
+    border-radius: 4px;
+    line-height: 30px;
+}
+.lsdbRow{
+    padding-bottom: 8px; font-size: 18px;
+} 
+.lsdbRow > div{ margin-bottom: 15px; }
+.lsdbRow > div label{ display: block; width: 100%;     padding-bottom: 8px;}
+.lsdbRow > div  input[type="text"]{
+    width: 100%;
+    height: 45px;
+}
+
+#lsdbReplce{
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    border: 1px solid #a0a3a5;
+    border-radius: 12px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* .lpcBrand_outer{
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+} */
+
+#wpbody-content{
+    height: 87vh;
+}
+.lpcBrand{
+    position: absolute;
+    bottom: 40px;
+    right: 22px;
+    display: block;
+    max-width: 150px;
+    width: 100%;
+}
+.lpcBrand img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}

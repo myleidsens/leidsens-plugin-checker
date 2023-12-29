@@ -1,0 +1,196 @@
+
+.leidsens_tabWrap{
+	display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+@media screen and (min-width: 767px){
+	.wp-responsive-open #wpbody{
+		right: -8rem;
+	} 
+}
+/* Style the tab */
+		.lstabMenu {
+			border: 0;
+			background-color: #FFF;
+			width: 30%;
+			border: 1px solid #ccc;
+		}
+
+		/* Style the buttons that are used to open the tab content */
+		.lstabMenu button {
+			background-color: #FFFFFF;
+			float: left;
+			border: 0;
+			border-top: 1px solid #CCCCCC;
+			outline: none;
+			cursor: pointer;
+			padding: 34px 26px;
+			transition: 0.3s;
+			width: 100%;
+			font-size: 18px;
+			color: #010510;
+			position: relative;
+			text-align: left;
+
+
+		
+
+		}
+		@media screen and (min-width: 767px){
+			.lstabMenu button{
+				font-size: 16px;
+				padding: 30px 10px;
+			}
+			} 
+			@media screen and (min-width: 320px){
+				.lstabMenu button{
+					padding: 34px 7px;
+				}
+				}
+
+		.lstabMenu button:before{
+			content: "";
+			width: 12px;
+			height: 12px;
+			background: #2e2323;
+			border-radius: 50%;
+			display: inline-block;
+			margin-right: 10px;
+
+		}
+		.lstabMenu > button:first-child{ border-top: 0;}
+
+		/* Change background color of buttons on hover */
+		.lstabMenu button:hover {
+		  background-color: #ddd;
+		}
+
+		/* Create an active/current tablink class */
+		.lstabMenu button.active {
+		  background-color: #ccc;
+		}
+		.lstabMenu button.active::after{
+			content: "";
+			width: 0;
+			height: 0;
+			border-top: 15px solid transparent;
+			border-left: 25px solid #cccccc;
+			border-bottom: 15px solid transparent;
+			display: inline-block;
+			position: absolute;
+			left: 100%;
+			top: 20px;
+		} 
+
+		/* Style the tab content */
+		.containerWrpa{
+			width: 68%;
+		}
+		.lsTabContent {
+		  display: none;
+		  padding: 20px;
+		  border: 0px solid #ccc;
+		  border-top: none;
+		}
+
+		.lsTabContent textarea {
+		  min-width: 300px;
+		}
+		@media screen and (min-width: 320px){
+			.lsTabContent textarea {
+				min-width: 100px;
+			  }
+			}
+		.lsTabContent{
+			background-color: #FFFFFF; 
+		}
+		.lsTabContent__header{
+			text-align: center;
+		}
+		.lsTabContent__header svg{ max-width: 70px; height: auto; } 
+		.lsTabContent__header svg path{fill: #3254b1;}
+		.lsTabContent__header h3{
+			font-size: 34px;
+			margin: 10px 0 25px 0;
+			color: #3254b1;
+		}
+		@media screen and (min-width: 320px){
+			.lsTabContent__header h3{
+				font-size: 25px;
+				line-height: 27px;
+			}
+			} 
+
+		@media screen and (min-width: 767px){
+           .lsTabContent__header h3 {
+                  font-size: 25px;
+			} 
+		}
+		.lsrow{
+			display: flex;
+			align-items: center;
+			/* justify-content: space-between; */
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.lsrow > div{ width: 100%; padding-top: 15px; text-align: center;}
+		.lsrow .select2-container{
+			width: 100% !important;
+			max-width: 440px;
+			min-height: 45px;
+		}
+		.lsrow label{ width: 100%; display: block; padding-bottom: 8px; font-size: 18px;}
+		.lsrow .select2-container--default .select2-selection--multiple{
+			min-height: 45px;
+			border: 1px solid #ccc;
+			padding: 6px 10px;
+		}
+		.lsrow input[type="submit"]{
+			padding: 6px 35px;
+    		font-size: 16px;
+		}
+
+.pluginChecker_multiSelect{
+	max-width: 440px;
+	position: relative;
+}
+
+.pluginChecker_multiSelect .pluginChecker_downArrow{
+	position: absolute;
+	right: 10px;
+    z-index: 999;
+    top: 52px;
+}
+
+.pluginChecker_multiSelect_urlReplace{
+	max-width: 100%;
+	position: relative;
+}
+.pluginChecker_multiSelect_urlReplace select{
+	width: 100%;
+    max-width: 100%;
+}
+.pluginChecker_multiSelect_urlReplace .select2-selection.select2-selection.select2-selection{
+	width: 100%;
+    max-width: 100%;
+    min-height: 45px;
+	border: 1px solid #8c8f94; 
+}
+.pluginChecker_multiSelect_urlReplace .pluginChecker_downArrow{
+	position: absolute;
+	right: 10px;
+    z-index: 999;
+    top: 40px;
+}
+
+.pluginChecker_multiSelect .select2-container--default .select2-selection--multiple .select2-selection__choice__display{
+	padding-left: 15px;
+}
+.pluginChecker_multiSelect_urlReplace .select2-container--default .select2-selection--multiple .select2-selection__choice__display{
+	padding-left: 15px;
+}
+
+		
