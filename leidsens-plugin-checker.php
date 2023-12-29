@@ -2,7 +2,6 @@
 /*
 Plugin Name: Leidsens Plugin Checker
 Description: Plugin to list, active, deactive all installed plugins, Find and replace URLs, slug.
-Author URI:  https://www.saffiretech.com
 Author: Leidsens
 Author URI: https://leidsens.com/
 License: GPLv3
